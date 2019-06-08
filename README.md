@@ -1,0 +1,1 @@
+This is my first project from The Odin Project's [curriculum](http://www.theodinproject.com/courses/web-development-101/lessons/html-css). In this assignment I will recreate the Google.com homepage using html and css. The goal is to just recreate a page that looks very close to it, not actually have the same functions. 
