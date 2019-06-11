@@ -1,0 +1,38 @@
+.center {
+    text-align: center;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.logo {
+    padding-top: 200px;
+    padding-bottom: 15px;
+}
+
+.gsearch {
+    border-radius: 25px;
+    width: 450px;
+    height: 40px;
+    font-size: 14px;
+    padding: 5px 8px 0 20px;
+
+}
+
+.headerleft {
+
+}
+
+.headerright {
+    
+}
+
+p {
+    font-family: arial;
+    font-size: 14px;
+}
+
+.b1, .b2 {
+    margin: 20px 5px 15px 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
