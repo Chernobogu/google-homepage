@@ -1,29 +1,61 @@
+body {
+    font-family: arial, sans-serif;
+    padding-bottom: 35px;
+}
+
 .center {
     text-align: center;
+    width: 100%;
     font-family: arial;
     font-size: 14px;
 }
 
+.pagetop {
+    position: fixed;
+    padding-top: 10px;
+    font-size: 13px;
+    width: 100%;
+}
+
 .logo {
+    justify-content: center;
     padding-top: 200px;
     padding-bottom: 15px;
 }
 
 .gsearch {
+    border: 1px solid lightgray;
     border-radius: 25px;
-    width: 450px;
+    background-color: transparent;
+    overflow: visible;
+    width: 482px;
     height: 40px;
     font-size: 14px;
     padding: 5px 8px 0 20px;
+}
 
+.gsearch:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
 }
 
 .headerleft {
-
+    float: left;
 }
 
 .headerright {
-    
+    float: right;
+    padding-right: 27px;
+}
+
+.headerleft a, .headerright a {
+    margin-left: 17px;
+}
+
+.products {
+    margin-bottom: -5px;
+    height: 20px;
+    width: 20px;
 }
 
 p {
@@ -31,8 +63,58 @@ p {
     font-size: 14px;
 }
 
+.signin {
+    margin: 0px 5px 15px 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #4285f4;
+    
+}
+
 .b1, .b2 {
     margin: 20px 5px 15px 5px;
     padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid #f8f8f8;
+}
+
+.b1:hover, .b2:hover {
+    border: 1px solid #c6c6c6;
+    color: black;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width:100%;
     background-color: #f2f2f2;
+    line-height: 40px;
+}
+
+a { 
+    color: #5f6368;
+    margin-left: 27px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footerleft {
+    float: left;
+    margin-left: 27px;
+}
+
+.footerright {
+    float: right;
+    margin-right: 27px;
+}
+
+.lnk {
+    margin: 0;
+    color: #1a0dab;
 }
